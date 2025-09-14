@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클릭커 RPG 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>클릭커 RPG 게임</h1>
+        <div id="score">점수: 0</div>
+        <div id="level">레벨: 1</div>
+        <div id="experience">경험치: 0 / 100</div>
+        <button id="clickButton">클릭!</button>
+
+        <div id="regionSection">
+            <h2>해방된 지역:</h2>
+            <ul id="regionsList">
+                <li>지역 1: 시작 지역</li>
+            </ul>
+            <button id="unlockRegion">지역 해방 (레벨 5 이상)</button>
+        </div>
+
+        <div id="upgradeSection">
+            <h2>업그레이드</h2>
+            <button id="buyAutoClicker">자동 클릭기 구매 (100점)</button>
+            <div id="autoClickerStatus">자동 클릭기: 0개</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
